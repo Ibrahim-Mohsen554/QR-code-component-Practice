@@ -33,7 +33,7 @@ img {
 .card {
     background-color: var(--cls-white);
     width: 23.4375rem;
-    padding: 1rem;
+    padding: 1.3rem;
     border-radius: 20px;
 }
 
@@ -44,16 +44,21 @@ img {
 }
 
 .card__body {
-    padding: 1.25rem;
+    padding: 1.50rem;
     text-align: center;
+
 }
 
-.card__body h2 {
+.card__body h1 {
     color: var(--cls-darkBlue);
     font-weight: 700;
     margin-bottom: 1.25rem;
+    font-size: 1.5625rem
 }
 
 .card__body p {
     color: var(--cls-lightGray);
+
+    max-width: 26ch;
+    margin-inline: auto;
 }
